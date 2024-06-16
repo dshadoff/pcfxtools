@@ -31,6 +31,10 @@
 *.exe
 *.out
 *.app
+bincat
+hulib
+huobj
+pcfx-cdlink
 
 # Debug files
 *.dSYM/

@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
 	uint32_t prog_offset = 0x8000;
 	uint32_t prog_point = 0x8000;
 
-	printf("Code+data Size: %ld\n", binblocks * 2048);
+	printf("Code+data Size: %d\n", binblocks * 2048);
 	int32_t sh_size = (1024 * 2048) - (binblocks * 2048) - 0x8000 - 2048;
 	/* 2KiB minimum for stack or heap(they grow in different directions!) */
 
